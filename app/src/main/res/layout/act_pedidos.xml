@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/act_pedidos"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".PedidosActivity">
+
+    <TextView
+        android:id="@+id/txtNomeMesa"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="14pt" />
+
+    <TextView
+        android:id="@+id/txtNome"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="10pt" />
+
+    <!--<ListView-->
+    <!--android:id="@+id/listPedidos"-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="wrap_content" ></ListView>-->
+    <EditText
+        android:id="@+id/txtTextoAlert"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Digite algo"
+        android:text="" />
+
+    <Button
+        android:id="@+id/btnAlert"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="exibirAlert"
+        android:text="Alert box" />
+
+</LinearLayout>
